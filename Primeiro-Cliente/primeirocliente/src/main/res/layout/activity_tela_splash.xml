@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/corFundo"
+    android:orientation="vertical"
+    tools:context=".TelaSplashActivity">
+
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:layout_width="165dp"
+        android:layout_height="165dp"
+        app:srcCompat="@drawable/logotarefa" />
+
+    <TextView
+        android:id="@+id/textNomeApp"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/corTextos" />
+
+    <TextView
+        android:id="@+id/textAppVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:text="Versão 1.0"
+        android:textColor="@color/corTextos" />
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

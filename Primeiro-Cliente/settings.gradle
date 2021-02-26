@@ -1,0 +1,2 @@
+include ':primeirocliente'
+rootProject.name = "PrimeiroCliente"

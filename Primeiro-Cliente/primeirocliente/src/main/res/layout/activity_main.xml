@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/corFundo"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/desconto" />
+
+    <TextView
+        android:id="@+id/textPromocional"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="         Estamos com 30% de desconto para \n
+        estes produtos apenas para pedidos via \n
+        nosso aplicativo. Ligue e fale diretamente \n
+        com nossa equipe para descobrir a lista \n
+        de produtos em promoção. Telefone \n
+        exclusivo para esta oferta, ligue (99) \n
+                             9999-9999"
+        android:layout_gravity="center"
+        android:textColor="@color/corTextos"
+        android:textSize="16sp"
+        android:layout_marginTop="-45dp"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
